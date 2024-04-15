@@ -38,14 +38,6 @@
         }
       }
     },
-    "Content": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
@@ -70,6 +62,14 @@
         }
       },
       "component": "shared.seo"
+    },
+    "Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
